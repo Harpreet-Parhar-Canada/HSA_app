@@ -120,5 +120,3 @@ console.log(this.state.playing)
 }
 
 export default Showhistorical;
-
-// <Cell col={2} style={{color:'black'}}><Chip className="aboutCell1">back</Chip></Cell>
