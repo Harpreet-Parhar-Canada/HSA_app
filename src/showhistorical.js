@@ -9,7 +9,7 @@ class Showhistorical extends Component {
       super(props)
       this.state = {
           backgroundImage1: this.props.backgroundImage1,
-          activeTab:'Select any option ',
+          activeTab:'Select ',
           url: 'https://www.youtube.com/watch?v=0vk5Rmo3E3E&t=4s',
           pip: false,
           playing: false,
