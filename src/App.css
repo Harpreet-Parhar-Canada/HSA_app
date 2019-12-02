@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.map{
+  margin-left: 20%;
+}
+
+.historicalDiv {
+  min-height: auto;
+  min-width: auto;
+}
+
+.aboutCell {
+background: #FF512F;
+background: -webkit-linear-gradient(to right, #F09819, #FF512F);
+background: linear-gradient(to right, #F09819, #FF512F);
+}
+.aboutCell1 {
+  background: #FF512F;
+  background: -webkit-linear-gradient(to right, #F09819, #FF512F);
+  background: linear-gradient(to right, #F09819, #FF512F);
+  border-radius: 10%;
+  }
+.h2{
+  color:white;
+}
+.divHistorical{
+  min-width: 100%;
+  min-height: 100%;
+  align-items: center;
+}
+
+.playerDiv {
+  align-items: center;
+
+
+ 
+}
+
+.react-h5-audio-player {
+  width:auto;
+  height: auto;
+
+}
