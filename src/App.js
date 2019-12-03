@@ -20,7 +20,7 @@ const list = [
     "longitude": "-114.077256",
     "title": "Lougheed House",
     "desc1":"Built in 1891 and originally known as 'Beaulieu', the French meaning 'beautiful place', Lougheed House is now a national historic site located in the Beltline district of Calgary, Alberta.",
-    "secondPage": "Will be updated",
+    "secondPage": "https://lougheedhouse.com/",
   },
 
   { "id": "3",
@@ -41,14 +41,15 @@ function Map() {
 
      if(selectedPin.title=="The Grand YYC")
           {
-            setGrand(
-              <div> <a href={selectedPin.secondPage}>VISIT</a></div>
-              )            
+            setGrand(<Historical/>)
+                
           }
 
         else if(selectedPin.title=="Lougheed House")
-              {  setGrand(<Historical/>)
-            
+              {
+                setGrand(
+                  <div> <a href={selectedPin.secondPage}>VISIT</a></div>
+                  )       
               }
             else if (selectedPin.title=="Calgary Tower")
                {setGrand(<div> <a href={selectedPin.secondPage}>VISIT</a></div>)}

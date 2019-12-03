@@ -9,8 +9,8 @@ class Showhistorical extends Component {
       super(props)
       this.state = {
           backgroundImage1: this.props.backgroundImage1,
-          activeTab:'Select ',
-          url: 'https://www.youtube.com/watch?v=0vk5Rmo3E3E&t=4s',
+          activeTab:'Select',
+          url: this.props.video,
           pip: false,
           playing: false,
       };
@@ -79,7 +79,9 @@ console.log(this.state.playing)
                 break;
              case 2:
                  this.setState(
-                  { activeTab:<div style={{backgroundColor:'black'}}> <p style={{color:'white'}}>"Built in 1891 and originally known as Beaulieu, the French meaning beautiful place, Lougheed House is a national historic site located in the Beltline district of Calgary, Alberta. Lougheed House is operated by Lougheed House Conservation Society, an independent, non-profit society devoted to the restoration and public enjoyment of the historic house and its Gardens.Over its long history, Lougheed House has been a family residence, a training centre for young women,a women's military barracks and a blood donor clinic. Then, for many years, it sat empty — cared for, but unused until its restoration started in 2000."</p></div> });          break;
+                  { activeTab:<div style={{backgroundColor:'black'}}> <p style={{color:'white'}}>"The Grand is situated on the land where the Bow River meets the Elbow River. The traditional Blackfoot name of this place is Mohkinstsis, which is also referred to as the City of Calgary. We honour and acknowledge Mohkinstsis and the traditional Treaty 7 territory and oral practices of the Blackfoot confederacy: Siksika, Kainai, Piikani as well as the Iyarhe Nakoda and Tsuut’ina nations who also call this place home.  We also acknowledge that this territory is home to the Métis Nation of Alberta, Region 3 within the historical Northwest Métis homeland.
+
+                  The Grand is a not-for-profit organization (Charitable Registration: 134483981 RR0001). Since 2006, the theatre has been a centre for creation and presentation of contemporary performance from Calgary, Canada, and around the world. In 2019, we embark on a new chapter with a new vision for the future."</p></div> });          break;
     }
   }
 

@@ -7,11 +7,11 @@ const Historical =() => {
       <div className= "historicalDiv">
         
          <Showhistorical
-                      video={"'https://www.youtube.com/watch?v=0vk5Rmo3E3E&t=4s'"}
+                      video={"'https://www.youtube.com/watch?v=VEUSKCX9SAE'"}
                       audio={2019}
                       read="EvolveU"
-                      historicalName="Lougheed Calgary"
-                      backgroundImage1="'https://media.mydriveholiday.com/pages/501/Lougheed%20House%20(1).jpg'"/> 
+                      historicalName="The Grand YYC"
+                      backgroundImage1="'https://i1.wp.com/livewirecalgary.com/wp-content/uploads/2019/01/The_Grand_-_Calgary-e1546543255554.jpg?fit=1182%2C822&ssl=1'"/> 
         
        
       </div>
