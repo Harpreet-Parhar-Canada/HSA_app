@@ -32,6 +32,7 @@
 
 .aboutCell {
 background: #FF512F;
+
 background: -webkit-linear-gradient(to right, #F09819, #FF512F);
 background: linear-gradient(to right, #F09819, #FF512F);
 }
@@ -51,14 +52,31 @@ background: linear-gradient(to right, #F09819, #FF512F);
 }
 
 .playerDiv {
-  align-items: center;
-
-
- 
-}
+  text-align: center;
+  margin: auto;
+  min-width: auto;
+  min-height: auto;
+  /* border: 3px solid black; */
+  padding: 10px;}
 
 .react-h5-audio-player {
   width:auto;
   height: auto;
 
+}
+.tabDiv{
+  text-align: center;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  margin:auto;
+  border: 2px solid  black; /* Green */
+}
+.button2 {
+  background-color: white;
+  color: black;
+  margin:auto;
+  border: 2px solid  black; /* Green */
 }

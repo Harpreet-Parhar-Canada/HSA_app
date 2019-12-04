@@ -42,8 +42,8 @@ console.log(this.state.playing)
               id="myVid" height='auto' width='auto'
               ref={this.player}
               className='react-player'
-              width='100%'
-              height='100%'
+              // width='100%'
+              // height='100%'
               url={this.state.url}
               playing={false}
               />
@@ -57,18 +57,16 @@ console.log(this.state.playing)
     switch(tabId) {
       case 0:
         this.setState(
-          { activeTab: <div>
+          { activeTab: <div className='playerDiv'>
                   <ReactPlayer
                   id="myVid" height='auto' width='auto'
                   ref={this.player}
                   className='react-player'
-                  width='100%'
-                  height='100%'
-                  url={this.state.url}
+                    url={this.state.url}
                   playing={this.state.playing}
                   />
-          <button onClick={this.handlePlay}> Play </button>
-          <button onClick={this.handlePause}> Pause </button>
+          <button onClick={this.handlePlay} className='button1'> Play </button>
+          <button onClick={this.handlePause} className='button2'> Pause </button>
           </div>});
           break;
           case 1:
@@ -101,21 +99,22 @@ console.log(this.state.playing)
                         <Tab label="tab3" >Read</Tab>
                  </Tabs>
           </div>
-           <Grid style={{
+           <div style={{
                        backgroundImage:'url(' + backImg + ')',
                         backgroundPosition: 'center',
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat',
                         filter: 'grayscale(75%)',
                         height:'350px',
+                        textAlign:'center'
                         
                         
                   }}
                   >
-                <section>
-                        <div > <p style={{color:'black',alignItems:'center',width:'auto'}}> {this.state.activeTab} </p></div>
-                   </section>
-                  </Grid>
+                <div className='tabDiv'>
+                        <div > <p style={{color:'black',width:'auto'}}> {this.state.activeTab} </p></div>
+                   </div>
+                  </div>
     </div>
     )
   }
